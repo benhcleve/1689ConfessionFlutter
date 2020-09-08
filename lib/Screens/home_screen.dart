@@ -1,10 +1,11 @@
+import 'package:confession_app/Components/page_route.dart';
 import 'package:flutter/material.dart';
+import 'package:confession_app/Screens/chapter_1.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       appBar: AppBar(title: Text("1689 London Baptist Confession")),
       drawer: Drawer(
           child: SafeArea(
@@ -13,24 +14,25 @@ class HomeScreen extends StatelessWidget {
             Container(
               height: 50.0,
               child: DrawerHeader(
-                  child: Text('Chapters',
-                      style: TextStyle(color: Colors.black, fontSize: 24)),
-                  decoration: BoxDecoration(color: Colors.white),
+                  child: Text('Chapters', style: TextStyle(fontSize: 24)),
                   margin: EdgeInsets.all(0.0),
                   padding: EdgeInsets.all(0.0)),
             ),
             OutlineButton(
               child: Text('Chapter 1'),
               onPressed: () {
-                print("Hello");
+                Navigator.push(context, InstantPageRoute(widget: Chapter1()));
               },
-            )
+            ),
           ],
         ),
       )),
-      body: SafeArea(
-        child: Row(
-          children: <Widget>[Icon(Icons.book), Text('Paragraph 1')],
+      body: Center(
+        child: SafeArea(
+          child: Text(
+            '1689 London Baptist Confession',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+          ),
         ),
       ),
     );
