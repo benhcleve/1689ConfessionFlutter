@@ -7,29 +7,31 @@ import 'dart:async';
 import 'dart:convert';
 
 class VerseData {
-  final String bible;
   final String passage;
 
-  VerseData({this.bible, this.passage});
+  VerseData({this.passage});
 
   factory VerseData.fromJson(Map<String, dynamic> json) {
-    return VerseData(bible: json['bible'], passage: json['passage']);
+    return VerseData(passage: json['text']);
   }
 }
 
 class BibleVerse extends StatefulWidget {
   final String aPIkey = "7ed15e6ecbb7c77b9749b18298a90732";
   final String bibleVerse;
+
   const BibleVerse({Key key, this.bibleVerse}) : super(key: key);
 
   Future<VerseData> fetchBible() async {
     print('async call started');
+    final String apiKEY = '7ed15e6ecbb7c77b9749b18298a90732';
+    final String bibleVerseURL = bibleVerse.replaceAll(new RegExp(r"\s+"), ""); //Remove spaces from verse to add to url
+    print(bibleVerseURL);
     final response = await http.get(
-      'https://api.biblia.com/v1/bible/content/LEB.html?passage=John3.16&key=7ed15e6ecbb7c77b9749b18298a90732',
+      'https://api.biblia.com/v1/bible/content/LEB.json?passage=$bibleVerseURL&key=$apiKEY',
     );
     print('success!');
-    final responseJson = json.decode(response.body);
-    return VerseData.fromJson(responseJson);
+    return VerseData.fromJson(json.decode(response.body));
   }
 
   //FUNCTION USED TO CALL BUTTON
@@ -38,8 +40,7 @@ class BibleVerse extends StatefulWidget {
       padding: const EdgeInsets.all(4.0),
       child: MaterialButton(
         onPressed: () {
-          showDialog(
-              context: context, builder: (_) => BibleVerse(bibleVerse: bibleV));
+          showDialog(context: context, builder: (_) => BibleVerse(bibleVerse: bibleV));
         },
         padding: EdgeInsets.all(3),
         height: 10,
@@ -63,7 +64,8 @@ class _BibleVerseState extends State<BibleVerse> {
           future: widget.fetchBible(),
           builder: (context, AsyncSnapshot snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
-              return snapshot.data;
+              print(snapshot);
+              return Text(snapshot.data.passage);
             } else {
               return CircularProgressIndicator();
             }
