@@ -45,7 +45,7 @@ class BibleVerse extends StatefulWidget {
                   ));
         },
         padding: EdgeInsets.all(3),
-        height: 10,
+        height: 0,
         color: Colors.black,
         child: RichText(
             text: TextSpan(

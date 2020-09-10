@@ -1,10 +1,7 @@
 import 'package:confession_app/Components/bible_verse_button.dart';
-import 'package:confession_app/Components/page_route.dart';
+import 'package:confession_app/Components/page_layout.dart';
 import 'package:confession_app/Data/chapter1_data.dart';
-import 'package:confession_app/Data/settings.dart';
 import 'package:flutter/material.dart';
-import 'package:confession_app/Screens/home_screen.dart';
-import 'package:confession_app/Screens/settings_screen.dart';
 
 class Chapter1 extends StatelessWidget {
   @override
@@ -15,55 +12,31 @@ class Chapter1 extends StatelessWidget {
     Key par1 = UniqueKey();
 
     return Scaffold(
-      appBar: AppBar(title: Text("1689 London Baptist Confession")),
-      drawer: Drawer(
-          child: SafeArea(
-        child: ListView(
-          children: <Widget>[
-            Container(
-              height: 50.0,
-              child: DrawerHeader(child: Text('Chapters', style: TextStyle(fontSize: 24)), margin: EdgeInsets.all(0.0), padding: EdgeInsets.all(0.0)),
-            ),
-            OutlineButton(
-              child: Text('Home'),
-              onPressed: () {
-                Navigator.push(context, InstantPageRoute(widget: HomeScreen()));
-              },
-            )
-          ],
-        ),
-      )),
+      appBar: Layout.defaultAppBar(),
+      drawer: Layout.defaultDrawer(context),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(12.0),
           child: SafeArea(
             child: Column(children: [
-              Text('Chapter 1: Of the Holy Scriptures'),
-              Row(
-                key: par1,
-                children: <Widget>[Icon(Icons.book), Text('Paragraph 1')],
-              ),
-              RichText(
-                text: TextSpan(
-                  children: [
-                    TextSpan(text: ChapterOneData.p1Ref1, style: plainTextBody),
-                    TextSpan(text: '1', style: verseRefBody),
-                    TextSpan(text: ChapterOneData.p1Ref2, style: plainTextBody),
-                    TextSpan(text: '2', style: verseRefBody),
-                    TextSpan(text: ChapterOneData.p1Ref3, style: plainTextBody),
-                    TextSpan(text: '3', style: verseRefBody),
-                    TextSpan(text: ChapterOneData.p1Ref4, style: plainTextBody),
-                    TextSpan(text: '4', style: verseRefBody),
-                  ],
-                ),
-              ),
-              Row(
-                children: <Widget>[
-                  BibleVerse.button(context, 1, "2 Timothy 3:15-17"),
-                  BibleVerse.button(context, 1, "Isaiah 8:20"),
-                  BibleVerse.button(context, 1, "Luke 16:29"),
-                ],
-              ),
+              Layout.cTitle("Chapter 1: Of the Holy Scriptures"),
+              Layout.paragraph(Layout.pTitle(1, par1), [
+                Layout.pSection(ChapterOneData.p1Sec1, 1),
+                Layout.pSection(ChapterOneData.p1Sec2, 2),
+                Layout.pSection(ChapterOneData.p1Sec3, 3),
+                Layout.pSection(ChapterOneData.p1Sec4, 4)
+              ], [
+                BibleVerse.button(context, 1, "2 Timothy 3:15-17"),
+                BibleVerse.button(context, 1, "Isaiah 8:20"),
+                BibleVerse.button(context, 1, "Luke 16:29"),
+                BibleVerse.button(context, 1, "Ephesians 2:20"),
+                BibleVerse.button(context, 2, "Romans 1:19-21"),
+                BibleVerse.button(context, 2, "Psalm 19:1-3"),
+                BibleVerse.button(context, 3, "Hebrews 1:1"),
+                BibleVerse.button(context, 4, "Proverbs 22:19-21"),
+                BibleVerse.button(context, 4, "Romans 15:4"),
+                BibleVerse.button(context, 4, "2 Peter 1:19-20"),
+              ])
             ]),
           ),
         ),
