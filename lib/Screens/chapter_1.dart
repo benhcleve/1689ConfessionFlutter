@@ -6,9 +6,6 @@ import 'package:flutter/material.dart';
 class Chapter1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    TextStyle verseRefBody = new TextStyle(color: Colors.yellow, fontSize: 9, height: 1.5);
-    TextStyle plainTextBody = new TextStyle(fontSize: 18, height: 1.5);
-
     Key par1 = UniqueKey();
     Key par2 = UniqueKey();
 

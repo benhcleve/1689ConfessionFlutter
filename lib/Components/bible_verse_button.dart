@@ -18,6 +18,13 @@ class BibleVerse extends StatefulWidget {
   final String apiKEY = "7ed15e6ecbb7c77b9749b18298a90732";
   final String bibleVerse;
 
+  static Color buttonColor() {
+    if (Settings.isDarkMode == true)
+      return Colors.blueGrey[800];
+    else
+      return Colors.blueGrey;
+  }
+
   const BibleVerse({Key key, this.bibleVerse}) : super(key: key);
 
   Future<VerseData> fetchBible() async {
@@ -44,9 +51,10 @@ class BibleVerse extends StatefulWidget {
                     bibleVerse: bibleVerse,
                   ));
         },
+        elevation: 10,
         padding: EdgeInsets.all(3),
         height: 0,
-        color: Colors.black,
+        color: buttonColor(),
         child: RichText(
             text: TextSpan(
           children: <TextSpan>[

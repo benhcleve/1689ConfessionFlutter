@@ -1,3 +1,5 @@
+import 'package:confession_app/Components/theme_model.dart';
+import 'package:confession_app/Data/settings.dart';
 import 'package:confession_app/Screens/chapter_1.dart';
 import 'package:confession_app/Screens/settings_screen.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +13,12 @@ class Layout {
     color: Colors.yellow[800],
   );
 
-  static TextStyle plainTextBody = new TextStyle(fontSize: 18, height: 1.5, color: Colors.black);
+  static TextStyle plainTextBody() {
+    if (Settings.isDarkMode == true)
+      return TextStyle(fontSize: 18, height: 1.5, color: Colors.white);
+    else
+      return TextStyle(fontSize: 18, height: 1.5, color: Colors.black);
+  }
 
   static AppBar defaultAppBar() {
     return AppBar(title: Text("1689 London Baptist Confession"));
@@ -84,14 +91,14 @@ class Layout {
       //IF A refNumber IS INCLUDED
       return TextSpan(
         children: [
-          TextSpan(text: sectionText, style: plainTextBody),
+          TextSpan(text: sectionText, style: plainTextBody()),
           TextSpan(text: '$refNumber', style: verseRefBody),
         ],
       );
     } else //IF A refNumber IS NOT INCLUDED
       return TextSpan(
         children: [
-          TextSpan(text: sectionText, style: plainTextBody),
+          TextSpan(text: sectionText, style: plainTextBody()),
         ],
       );
   }

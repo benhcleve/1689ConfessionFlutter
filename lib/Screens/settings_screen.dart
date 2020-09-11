@@ -1,10 +1,8 @@
 import 'package:confession_app/Components/page_layout.dart';
-import 'package:confession_app/Components/page_route.dart';
-import 'package:confession_app/Screens/home_screen.dart';
-import 'package:confession_app/main.dart';
+import 'package:confession_app/Components/theme_model.dart';
 import 'package:flutter/material.dart';
-import 'package:confession_app/Screens/chapter_1.dart';
 import 'package:confession_app/Data/settings.dart';
+import 'package:provider/provider.dart';
 
 class SettingsScreen extends StatefulWidget {
   @override
@@ -61,7 +59,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     onChanged: (value) {
                       setState(() {
                         Settings.isDarkMode = value;
-                        print("Dark Mode: ${Settings.isDarkMode}");
+                        Provider.of<ThemeModel>(context).toggleTheme();
                       });
                     },
                     activeColor: Colors.grey[700],
