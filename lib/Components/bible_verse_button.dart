@@ -52,7 +52,7 @@ class BibleVerse extends StatefulWidget {
           children: <TextSpan>[
             TextSpan(
               text: '$refNumber ',
-              style: TextStyle(fontSize: 11, color: Colors.yellow),
+              style: TextStyle(fontSize: 11, color: Colors.yellow[800]),
             ),
             TextSpan(
               text: '$bibleVerse',

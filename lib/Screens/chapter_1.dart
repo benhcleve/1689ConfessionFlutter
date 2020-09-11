@@ -10,6 +10,7 @@ class Chapter1 extends StatelessWidget {
     TextStyle plainTextBody = new TextStyle(fontSize: 18, height: 1.5);
 
     Key par1 = UniqueKey();
+    Key par2 = UniqueKey();
 
     return Scaffold(
       appBar: Layout.defaultAppBar(),
@@ -20,6 +21,7 @@ class Chapter1 extends StatelessWidget {
           child: SafeArea(
             child: Column(children: [
               Layout.cTitle("Chapter 1: Of the Holy Scriptures"),
+              //PARAGRAPH 1
               Layout.paragraph(Layout.pTitle(1, par1), [
                 Layout.pSection(ChapterOneData.p1Sec1, 1),
                 Layout.pSection(ChapterOneData.p1Sec2, 2),
@@ -36,6 +38,13 @@ class Chapter1 extends StatelessWidget {
                 BibleVerse.button(context, 4, "Proverbs 22:19-21"),
                 BibleVerse.button(context, 4, "Romans 15:4"),
                 BibleVerse.button(context, 4, "2 Peter 1:19-20"),
+              ]),
+              //PARAGRAPH 2
+              Layout.paragraph(Layout.pTitle(2, par2), [
+                Layout.pSection(ChapterOneData.p2Sec5, 5),
+              ], [
+                BibleVerse.button(context, 5, "2 Timothy 3:16"),
+                BibleVerse.button(context, 8, "Matthew 3:16"),
               ])
             ]),
           ),
