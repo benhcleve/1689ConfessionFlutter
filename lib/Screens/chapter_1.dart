@@ -128,7 +128,7 @@ class Chapter1 extends StatelessWidget {
                   BibleVerse.button(context, 20, "Acts 15:15-16"),
                 ]),
                 //PARAGRAPH 10
-                Layout.paragraph(Layout.pTitle(9, par9), [
+                Layout.paragraph(Layout.pTitle(10, par10), [
                   Layout.pSection(ChapterOneData.p10Sec21, 21),
                 ], [
                   BibleVerse.button(context, 21, "Matthew 22:29"),
