@@ -1,6 +1,5 @@
 import 'package:confession_app/Components/bible_verse_button.dart';
 import 'package:confession_app/Components/page_layout.dart';
-import 'package:confession_app/Data/chapter1_data.dart';
 import 'package:confession_app/Data/chapter2_data.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +20,7 @@ class Chapter2 extends StatelessWidget {
             child: Column(
               children: [
                 Layout.cTitle("Chapter 2: Of God and the Holy Trinity"),
+
                 //PARAGRAPH 1
                 Layout.paragraph(Layout.pTitle(1, par1), [
                   Layout.pSection(ChapterTwoData.p1Sec1, 1),
@@ -94,6 +94,7 @@ class Chapter2 extends StatelessWidget {
                   BibleVerse.button(context, 25, "Psalm 145:17"),
                   BibleVerse.button(context, 26, "Revelation 5:12-14"),
                 ]),
+
                 //PARAGRAPH 3
                 Layout.paragraph(Layout.pTitle(3, par3), [
                   Layout.pSection(ChapterTwoData.p3Sec27, 27),

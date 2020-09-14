@@ -1,4 +1,4 @@
 class Settings {
-  static String selectedTranslation = 'ASV';
+  static String selectedTranslation = 'KJV';
   static bool isDarkMode = false;
 }

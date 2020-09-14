@@ -27,6 +27,7 @@ class Chapter1 extends StatelessWidget {
             child: Column(
               children: [
                 Layout.cTitle("Chapter 1: Of the Holy Scriptures"),
+
                 //PARAGRAPH 1
                 Layout.paragraph(Layout.pTitle(1, par1), [
                   Layout.pSection(ChapterOneData.p1Sec1, 1),
@@ -45,12 +46,14 @@ class Chapter1 extends StatelessWidget {
                   BibleVerse.button(context, 4, "Romans 15:4"),
                   BibleVerse.button(context, 4, "2 Peter 1:19-20"),
                 ]),
+
                 //PARAGRAPH 2
                 Layout.paragraph(Layout.pTitle(2, par2), [
                   Layout.pSection(ChapterOneData.p2Sec5, 5),
                 ], [
                   BibleVerse.button(context, 5, "2 Timothy 3:16"),
                 ]),
+
                 //PARAGRAPH 3
                 Layout.paragraph(Layout.pTitle(3, par3), [
                   Layout.pSection(ChapterOneData.p3Sec6, 6),
@@ -59,6 +62,7 @@ class Chapter1 extends StatelessWidget {
                   BibleVerse.button(context, 6, "Luke 24:44"),
                   BibleVerse.button(context, 6, "Romans 3:2"),
                 ]),
+
                 //PARAGRAPH 4
                 Layout.paragraph(Layout.pTitle(4, par4), [
                   Layout.pSection(ChapterOneData.p4Sec7, 7),
@@ -68,6 +72,7 @@ class Chapter1 extends StatelessWidget {
                   BibleVerse.button(context, 7, "1 Thessalonians 2:13"),
                   BibleVerse.button(context, 7, "1 John 5:9"),
                 ]),
+
                 //PARAGRAPH 5
                 Layout.paragraph(Layout.pTitle(5, par5), [
                   Layout.pSection(ChapterOneData.p5Sec8, 8),
@@ -77,6 +82,7 @@ class Chapter1 extends StatelessWidget {
                   BibleVerse.button(context, 8, "1 John 2:20"),
                   BibleVerse.button(context, 8, "1 John 2:27"),
                 ]),
+
                 //PARAGRAPH 6
                 Layout.paragraph(Layout.pTitle(6, par6), [
                   Layout.pSection(ChapterOneData.p6Sec9, 9),
@@ -91,15 +97,17 @@ class Chapter1 extends StatelessWidget {
                   BibleVerse.button(context, 11, "1 Corinthians 14:26"),
                   BibleVerse.button(context, 11, "1 Corinthians 14:40"),
                 ]),
+
                 //PARAGRAPH 7
                 Layout.paragraph(Layout.pTitle(7, par7), [
-                  Layout.pSection(ChapterOneData.p7Sec12, 9),
-                  Layout.pSection(ChapterOneData.p7Sec13, 10),
+                  Layout.pSection(ChapterOneData.p7Sec12, 12),
+                  Layout.pSection(ChapterOneData.p7Sec13, 13),
                 ], [
                   BibleVerse.button(context, 12, "2 Peter 3:16"),
                   BibleVerse.button(context, 13, "Psalm 19:7"),
                   BibleVerse.button(context, 13, "Psalm 119:130"),
                 ]),
+
                 //PARAGRAPH 8
                 Layout.paragraph(Layout.pTitle(8, par8), [
                   Layout.pSection(ChapterOneData.p8Sec14, 14),
@@ -120,13 +128,15 @@ class Chapter1 extends StatelessWidget {
                   BibleVerse.button(context, 18, "1 Corinthians 14:28"),
                   BibleVerse.button(context, 19, "Colossians 3:16"),
                 ]),
+
                 //PARAGRAPH 9
                 Layout.paragraph(Layout.pTitle(9, par9), [
-                  Layout.pSection(ChapterOneData.p9Sec20, 14),
+                  Layout.pSection(ChapterOneData.p9Sec20, 20),
                 ], [
                   BibleVerse.button(context, 20, "2 Peter 1:20-21"),
                   BibleVerse.button(context, 20, "Acts 15:15-16"),
                 ]),
+
                 //PARAGRAPH 10
                 Layout.paragraph(Layout.pTitle(10, par10), [
                   Layout.pSection(ChapterOneData.p10Sec21, 21),

@@ -1,6 +1,7 @@
 import 'package:confession_app/Data/settings.dart';
 import 'package:confession_app/Screens/chapter_1.dart';
 import 'package:confession_app/Screens/chapter_2.dart';
+import 'package:confession_app/Screens/chapter_3.dart';
 import 'package:confession_app/Screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Components/page_route.dart';
@@ -13,8 +14,28 @@ class Layout {
     color: Colors.yellow[800],
   );
 
+  static Divider appDivider() {
+    if (Settings.isDarkMode)
+      return Divider(
+        color: Colors.white,
+        height: 0,
+        thickness: .5,
+        indent: 0,
+        endIndent: 0,
+      );
+    else {
+      return Divider(
+        color: Colors.black,
+        height: 0,
+        thickness: .5,
+        indent: 0,
+        endIndent: 0,
+      );
+    }
+  }
+
   static TextStyle plainTextBody() {
-    if (Settings.isDarkMode == true)
+    if (Settings.isDarkMode)
       return TextStyle(fontSize: 18, height: 1.5, color: Colors.white);
     else
       return TextStyle(fontSize: 18, height: 1.5, color: Colors.black);
@@ -50,6 +71,7 @@ class Layout {
           drawerButton(context, "Home", HomeScreen()),
           drawerButton(context, "Chapter 1", Chapter1()),
           drawerButton(context, "Chapter 2", Chapter2()),
+          drawerButton(context, "Chapter 3", Chapter3()),
           drawerButton(context, "Settings", SettingsScreen()),
         ],
       ),
@@ -58,7 +80,8 @@ class Layout {
 
   static SafeArea paragraph(Row title, List<TextSpan> sections, List<Padding> bibleVerses) {
     return SafeArea(
-      child: Column(children: [
+      child: Column(children: <Widget>[
+        SizedBox(height: 10),
         title,
         RichText(
           text: TextSpan(
@@ -69,6 +92,8 @@ class Layout {
           runSpacing: -20,
           children: bibleVerses,
         ),
+        SizedBox(height: 20),
+        appDivider(),
       ]),
     );
   }
