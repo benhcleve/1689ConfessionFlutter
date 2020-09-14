@@ -6,20 +6,21 @@ import 'package:flutter/material.dart';
 class Chapter1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    Key par1 = UniqueKey();
-    Key par2 = UniqueKey();
-    Key par3 = UniqueKey();
-    Key par4 = UniqueKey();
-    Key par5 = UniqueKey();
-    Key par6 = UniqueKey();
-    Key par7 = UniqueKey();
-    Key par8 = UniqueKey();
-    Key par9 = UniqueKey();
-    Key par10 = UniqueKey();
+    Key par1 = GlobalKey();
+    Key par2 = GlobalKey();
+    Key par3 = GlobalKey();
+    Key par4 = GlobalKey();
+    Key par5 = GlobalKey();
+    Key par6 = GlobalKey();
+    Key par7 = GlobalKey();
+    Key par8 = GlobalKey();
+    Key par9 = GlobalKey();
+    Key par10 = GlobalKey();
 
     return Scaffold(
       appBar: Layout.defaultAppBar(),
       drawer: Layout.defaultDrawer(context),
+      floatingActionButton: Layout.paragraphButton([par1, par2, par3, par4, par5, par6, par7, par8, par9, par10]),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(12.0),

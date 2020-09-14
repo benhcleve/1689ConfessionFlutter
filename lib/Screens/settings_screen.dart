@@ -66,6 +66,21 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   ),
                 ],
               ),
+              Row(
+                children: [
+                  Text("Hide Paragraph Button: "),
+                  Switch(
+                    value: Settings.hideParagraphButton,
+                    onChanged: (value) {
+                      setState(() {
+                        Settings.hideParagraphButton = value;
+                        print(Settings.hideParagraphButton);
+                      });
+                    },
+                    activeColor: Colors.grey[700],
+                  ),
+                ],
+              ),
             ],
           ),
         ]),

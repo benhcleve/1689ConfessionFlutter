@@ -6,6 +6,7 @@ import 'package:confession_app/Screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Components/page_route.dart';
 import 'package:confession_app/Screens/home_screen.dart';
+import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 
 class Layout {
   static TextStyle chapterTitleStyle = new TextStyle(fontSize: 24);
@@ -32,6 +33,42 @@ class Layout {
         endIndent: 0,
       );
     }
+  }
+
+  static Container paragraphButton(List<GlobalKey> paragraphKeys) {
+    var buttonColor = Colors.grey[500];
+    if (Settings.isDarkMode) buttonColor = Colors.grey[900];
+
+    var iconColor = Colors.blueGrey[800];
+    if (Settings.isDarkMode) iconColor = Colors.blueGrey;
+
+    List<SpeedDialChild> paragraphs = [];
+
+    for (var i = paragraphKeys.length; i >= 1; i--) {
+      SpeedDialChild paragraph = SpeedDialChild(
+          child: FlatButton(
+              onPressed: () => Scrollable.ensureVisible(paragraphKeys[i + -1].currentContext),
+              textColor: iconColor,
+              color: buttonColor,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25.0), side: BorderSide(color: iconColor, width: 2)),
+              padding: EdgeInsets.zero,
+              child: Container(
+                padding: EdgeInsets.zero,
+                child: Text("$i", style: TextStyle(fontSize: 20)),
+              )));
+      paragraphs.add(paragraph);
+    }
+    if (!Settings.hideParagraphButton)
+      return Container(
+        child: SpeedDial(
+          overlayOpacity: .5,
+          children: paragraphs,
+          child: Icon(Icons.bookmark, color: iconColor),
+          backgroundColor: buttonColor,
+        ),
+      );
+    else
+      return null;
   }
 
   static TextStyle plainTextBody() {
@@ -105,7 +142,7 @@ class Layout {
     );
   }
 
-  static Row pTitle(int paragraphNum, Key paragraphKey) {
+  static Row pTitle(int paragraphNum, GlobalKey paragraphKey) {
     return Row(
       key: paragraphKey,
       children: <Widget>[Icon(Icons.bookmark), Text("Paragraph $paragraphNum")],
