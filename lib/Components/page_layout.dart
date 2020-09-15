@@ -2,6 +2,8 @@ import 'package:confession_app/Data/settings.dart';
 import 'package:confession_app/Screens/chapter_1.dart';
 import 'package:confession_app/Screens/chapter_2.dart';
 import 'package:confession_app/Screens/chapter_3.dart';
+import 'package:confession_app/Screens/chapter_4.dart';
+import 'package:confession_app/Screens/chapter_5.dart';
 import 'package:confession_app/Screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Components/page_route.dart';
@@ -35,7 +37,7 @@ class Layout {
     }
   }
 
-  static Container paragraphButton(List<GlobalKey> paragraphKeys) {
+  static SafeArea paragraphButton(List<GlobalKey> paragraphKeys) {
     var buttonColor = Colors.grey[500];
     if (Settings.isDarkMode) buttonColor = Colors.grey[900];
 
@@ -59,7 +61,7 @@ class Layout {
       paragraphs.add(paragraph);
     }
     if (!Settings.hideParagraphButton)
-      return Container(
+      return SafeArea(
         child: SpeedDial(
           overlayOpacity: .5,
           children: paragraphs,
@@ -109,6 +111,8 @@ class Layout {
           drawerButton(context, "Chapter 1", Chapter1()),
           drawerButton(context, "Chapter 2", Chapter2()),
           drawerButton(context, "Chapter 3", Chapter3()),
+          drawerButton(context, "Chapter 4", Chapter4()),
+          drawerButton(context, "Chapter 5", Chapter5()),
           drawerButton(context, "Settings", SettingsScreen()),
         ],
       ),
