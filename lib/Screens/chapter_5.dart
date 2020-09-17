@@ -23,7 +23,7 @@ class Chapter5 extends StatelessWidget {
           padding: const EdgeInsets.all(12.0),
           child: SafeArea(
             child: Column(children: [
-              Layout.cTitle("Chapter 3: Of God's Decree"),
+              Layout.cTitle("Chapter 5: Of Divine Providence"),
 
               //PARAGRAPH 1
               Layout.paragraph(Layout.pTitle(1, par1), [
