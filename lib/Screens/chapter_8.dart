@@ -1,6 +1,5 @@
 import 'package:confession_app/Components/bible_verse_button.dart';
 import 'package:confession_app/Components/page_layout.dart';
-import 'package:confession_app/Data/chapter1_data.dart';
 import 'package:confession_app/Data/chapter8_data.dart';
 import 'package:flutter/material.dart';
 
