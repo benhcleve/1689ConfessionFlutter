@@ -1,6 +1,6 @@
 import 'package:confession_app/Components/bible_verse_button.dart';
 import 'package:confession_app/Components/page_layout.dart';
-import 'package:confession_app/Data/chapter9_data.dart';
+import 'package:confession_app/Data/confession_data.dart';
 import 'package:flutter/material.dart';
 
 class Chapter9 extends StatelessWidget {
