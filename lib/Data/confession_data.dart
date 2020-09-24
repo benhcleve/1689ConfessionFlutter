@@ -324,3 +324,69 @@ class ChapterTenData {
   static var p4Sec14 =
       " much less can men that do not receive the Christian religion be saved; be they never so diligent to frame their lives according to the light of nature and the law of that religion they do profess.";
 }
+
+class ChapterElevenData {
+  //Paragraph 1
+  static var p1Sec1 = "Those whom God effectually calls, he also freely justifies,";
+  static var p1Sec2 = " not by infusing righteousness into them, but by pardoning their sins, and by accounting and accepting their persons as righteous;";
+  static var p1Sec3 = " not for anything wrought in them, or done by them, but for Christ's sake alone;";
+  static var p1Sec4 =
+      " not by imputing faith itself, the act of believing, or any other evangelical obedience to them, as their righteousness; but by imputing Christ's active obedience unto the whole law, and passive obedience in his death for their whole and sole righteousness by faith,";
+  static var p1Sec5 = " which faith they have not of themselves; it is the gift of God.";
+
+  //Paragraph 2
+  static var p2Sec6 = "Faith thus receiving and resting on Christ and his righteousness, is the alone instrument of justification;";
+  static var p2Sec7 = " yet is not alone in the person justified, but is ever accompanied with all other saving graces, and is no dead faith, but works by love.";
+
+  //Paragraph 3
+  static var p3Sec8 =
+      "Christ, by his obedience and death, did fully discharge the debt of all those who are justified; and did, by the sacrifice of himself in the blood of his cross, undergoing in their stead the penalty due to them, make a proper, real, and full satisfaction to God’s justice in their behalf;";
+  static var p3Sec9 = " yet, in as much as he was given by the Father for them, and his obedience and satisfaction accepted in their stead, and both freely, not for anything in them,";
+  static var p3Sec10 = " their justification is only of free grace, that both the exact justice and rich grace of God might be glorified in the justification of sinners.";
+
+  //Paragraph 4
+  static var p4Sec11 = "God did from all eternity decree to justify all the elect,";
+  static var p4Sec12 = " and Christ did in the fullness of time die for their sins, and rise again for their justification;";
+  static var p4Sec13 = " nevertheless, they are not justified personally, until the Holy Spirit in time does actually apply Christ to them.";
+
+  //Paragraph 5
+  static var p5Sec14 = "God continues to forgive the sins of those that are justified,";
+  static var p5Sec15 = " and although they can never fall from the state of justification,";
+  static var p5Sec16 = " yet they may, by their sins, fall under God’s fatherly displeasure;";
+  static var p5Sec17 = " and in that condition they usually do not have the light of his countenance restored to them, until they humble themselves, beg pardon, and renew their faith and repentance.";
+
+  //Paragraph 6
+  static var p6Sec18 = "The justification of believers under the Old Testament was, in all these respects, one and the same with the justification of believers under the New Testament.";
+}
+
+class ChapterTwelveData {
+  static var p1Sec1 = "All those that are justified, God conferred, in and for the sake of his only Son Jesus Christ, to make partakers of the grace of adoption,";
+  static var p1Sec2 = " by which they are taken into the number, and enjoy the liberties and privileges of the children of God,";
+  static var p1Sec3 = " have his name put on them,";
+  static var p1Sec4 = " receive the spirit of adoption,";
+  static var p1Sec5 = " have access to the throne of grace with boldness, are enabled to cry Abba, Father,";
+  static var p1Sec6 = " are pitied,";
+  static var p1Sec7 = " protected,";
+  static var p1Sec8 = " provided for,";
+  static var p1Sec9 = " and chastened by him as by a Father,";
+  static var p1Sec10 = " yet never cast off,";
+  static var p1Sec11 = " but sealed to the day of redemption,";
+  static var p1Sec12 = " and inherit the promises as heirs of everlasting salvation.";
+}
+
+class ChapterThirteenData {
+  static var p1Sec1 =
+      "They who are united to Christ, effectually called, and regenerated, having a new heart and a new spirit created in them through the virtue of Christ's death and resurrection, are also farther sanctified, really and personally,";
+  static var p1Sec2 = " through the same virtue, by his Word and Spirit dwelling in them;";
+  static var p1Sec3 = " the dominion of the whole body of sin is destroyed,";
+  static var p1Sec4 = " and the several lusts of it are more and more weakened and mortified,";
+  static var p1Sec5 = " and they more and more quickened and strengthened in all saving graces,";
+  static var p1Sec6 = " to the practice of all true holiness, without which no man shall see the Lord.";
+  static var p2Sec7 = "This sanctification is throughout the whole man,";
+  static var p2Sec8 = " yet imperfect in this life; there abides still some remnants of corruption in every part,";
+  static var p2Sec9 = " wherefrom arises a continual and irreconcilable war; the flesh lusting against the Spirit, and the Spirit against the flesh.";
+  static var p3Sec10 = "In which war, although the remaining corruption for a time may much prevail,";
+  static var p3Sec11 = " yet, through the continual supply of strength from the sanctifying Spirit of Christ, the regenerate part does overcome;";
+  static var p3Sec12 =
+      " and so the saints grow in grace, perfecting holiness in the fear of God, pressing after an heavenly life, in evangelical obedience to all the commands which Christ as Head and King, in his Word has prescribed to them.";
+}

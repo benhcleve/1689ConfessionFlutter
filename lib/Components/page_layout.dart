@@ -1,6 +1,5 @@
 import 'package:confession_app/Data/settings.dart';
-import 'package:confession_app/Screens/chapter_10.dart';
-import 'package:confession_app/Screens/chapter_9.dart';
+import 'package:confession_app/Screens/chapter_13.dart';
 import 'package:confession_app/Screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Components/page_route.dart';
@@ -14,6 +13,10 @@ import 'package:confession_app/Screens/chapter_5.dart';
 import 'package:confession_app/Screens/chapter_6.dart';
 import 'package:confession_app/Screens/chapter_7.dart';
 import 'package:confession_app/Screens/chapter_8.dart';
+import 'package:confession_app/Screens/chapter_9.dart';
+import 'package:confession_app/Screens/chapter_10.dart';
+import 'package:confession_app/Screens/chapter_11.dart';
+import 'package:confession_app/Screens/chapter_12.dart';
 
 class Layout {
   static TextStyle chapterTitleStyle = new TextStyle(fontSize: 24);
@@ -123,6 +126,9 @@ class Layout {
           drawerButton(context, "Chapter 8", Chapter8()),
           drawerButton(context, "Chapter 9", Chapter9()),
           drawerButton(context, "Chapter 10", Chapter10()),
+          drawerButton(context, "Chapter 11", Chapter11()),
+          drawerButton(context, "Chapter 12", Chapter12()),
+          drawerButton(context, "Chapter 13", Chapter13()),
           drawerButton(context, "Settings", SettingsScreen()),
         ],
       ),
