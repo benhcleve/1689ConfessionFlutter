@@ -390,3 +390,23 @@ class ChapterThirteenData {
   static var p3Sec12 =
       " and so the saints grow in grace, perfecting holiness in the fear of God, pressing after an heavenly life, in evangelical obedience to all the commands which Christ as Head and King, in his Word has prescribed to them.";
 }
+
+class ChapterFourteenData {
+  static var p1Sec1 = "The grace of faith, whereby the elect are enabled to believe to the saving of their souls, is the work of the Spirit of Christ in their hearts,";
+  static var p1Sec2 = " and is ordinarily wrought by the ministry of the Word;";
+  static var p1Sec3 = " by which also, and by the administration of baptism and the Lord's supper, prayer, and other means appointed of God, it is increased and strengthened.";
+  static var p2Sec4 = "By this faith a Christian believes to be true whatsoever is revealed in the Word for the authority of God himself,";
+  static var p2Sec5 = " and also apprehends an excellency therein above all other writings and all things in the world,";
+  static var p2Sec6 =
+      " as it bears forth the glory of God in his attributes, the excellency of Christ in his nature and offices, and the power and fullness of the Holy Spirit in his workings and operations: and so is enabled to cast his soul upon the truth consequently believed;";
+  static var p2Sec7 = " and also acts differently upon that which each particular passage thereof contains; yielding obedience to the commands,";
+  static var p2Sec8 = " trembling at the threatenings,";
+  static var p2Sec9 = " and embracing the promises of God for this life and that which is to come;";
+  static var p2Sec10 =
+      " but the principle acts of saving faith have immediate relation to Christ, accepting, receiving, and resting upon him alone for justification, sanctification, and eternal life, by virtue of the covenant of grace.";
+  static var p3Sec11 = "This faith, although it be in different stages, and may be weak or strong,";
+  static var p3Sec12 = " yet it is in the least degree of it different in the kind or nature of it, as is all other saving grace, from the faith and common grace of temporary believers;";
+  static var p3Sec13 = " and therefore, though it may be many times assailed and weakened, yet it gets the victory,";
+  static var p3Sec14 = " growing up in many to the attainment of a full assurance through Christ,";
+  static var p3Sec15 = " who is both the author and finisher of our faith.";
+}

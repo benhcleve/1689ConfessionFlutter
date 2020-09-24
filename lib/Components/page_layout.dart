@@ -1,5 +1,6 @@
 import 'package:confession_app/Data/settings.dart';
 import 'package:confession_app/Screens/chapter_13.dart';
+import 'package:confession_app/Screens/chapter_14.dart';
 import 'package:confession_app/Screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Components/page_route.dart';
@@ -129,6 +130,7 @@ class Layout {
           drawerButton(context, "Chapter 11", Chapter11()),
           drawerButton(context, "Chapter 12", Chapter12()),
           drawerButton(context, "Chapter 13", Chapter13()),
+          drawerButton(context, "Chapter 14", Chapter14()),
           drawerButton(context, "Settings", SettingsScreen()),
         ],
       ),

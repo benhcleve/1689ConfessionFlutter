@@ -34,13 +34,10 @@ class Chapter13 extends StatelessWidget {
                   BibleVerse.button(context, 1, "Acts 20:32"),
                   BibleVerse.button(context, 1, "Romans 6:5-6"),
                   BibleVerse.button(context, 2, "John 17:17"),
-                  BibleVerse.button(context, 2, "ephesians 3:16-19"),
-                  BibleVerse.button(context, 2, "1 Thessalonians 5:21-23"),
+                  BibleVerse.button(context, 2, "Ephesians 3:16-19"),
+                  BibleVerse.button(context, 3, "1 Thessalonians 5:21-23"),
                   BibleVerse.button(context, 3, "Romans 6:14"),
-                  BibleVerse.button(context, 4, "Galatians 5:24"),
-                  BibleVerse.button(context, 5, "Colossians 1:11"),
-                  BibleVerse.button(context, 6, "2 Corinthians 7:1"),
-                  BibleVerse.button(context, 6, "Hebrews 12:14"),
+                  BibleVerse.button(context, 3, "Galatians 5:24"),
                 ]),
 
                 //PARAGRAPH 2
