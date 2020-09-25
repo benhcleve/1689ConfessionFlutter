@@ -360,6 +360,7 @@ class ChapterElevenData {
 }
 
 class ChapterTwelveData {
+  //Paragraph 1
   static var p1Sec1 = "All those that are justified, God conferred, in and for the sake of his only Son Jesus Christ, to make partakers of the grace of adoption,";
   static var p1Sec2 = " by which they are taken into the number, and enjoy the liberties and privileges of the children of God,";
   static var p1Sec3 = " have his name put on them,";
@@ -375,6 +376,7 @@ class ChapterTwelveData {
 }
 
 class ChapterThirteenData {
+  //Paragraph 1
   static var p1Sec1 =
       "They who are united to Christ, effectually called, and regenerated, having a new heart and a new spirit created in them through the virtue of Christ's death and resurrection, are also farther sanctified, really and personally,";
   static var p1Sec2 = " through the same virtue, by his Word and Spirit dwelling in them;";
@@ -382,9 +384,11 @@ class ChapterThirteenData {
   static var p1Sec4 = " and the several lusts of it are more and more weakened and mortified,";
   static var p1Sec5 = " and they more and more quickened and strengthened in all saving graces,";
   static var p1Sec6 = " to the practice of all true holiness, without which no man shall see the Lord.";
+  //Paragraph 2
   static var p2Sec7 = "This sanctification is throughout the whole man,";
   static var p2Sec8 = " yet imperfect in this life; there abides still some remnants of corruption in every part,";
   static var p2Sec9 = " wherefrom arises a continual and irreconcilable war; the flesh lusting against the Spirit, and the Spirit against the flesh.";
+  //Paragraph 3
   static var p3Sec10 = "In which war, although the remaining corruption for a time may much prevail,";
   static var p3Sec11 = " yet, through the continual supply of strength from the sanctifying Spirit of Christ, the regenerate part does overcome;";
   static var p3Sec12 =
@@ -392,9 +396,11 @@ class ChapterThirteenData {
 }
 
 class ChapterFourteenData {
+  //Paragraph 1
   static var p1Sec1 = "The grace of faith, whereby the elect are enabled to believe to the saving of their souls, is the work of the Spirit of Christ in their hearts,";
   static var p1Sec2 = " and is ordinarily wrought by the ministry of the Word;";
   static var p1Sec3 = " by which also, and by the administration of baptism and the Lord's supper, prayer, and other means appointed of God, it is increased and strengthened.";
+  //Paragraph 2
   static var p2Sec4 = "By this faith a Christian believes to be true whatsoever is revealed in the Word for the authority of God himself,";
   static var p2Sec5 = " and also apprehends an excellency therein above all other writings and all things in the world,";
   static var p2Sec6 =
@@ -404,9 +410,65 @@ class ChapterFourteenData {
   static var p2Sec9 = " and embracing the promises of God for this life and that which is to come;";
   static var p2Sec10 =
       " but the principle acts of saving faith have immediate relation to Christ, accepting, receiving, and resting upon him alone for justification, sanctification, and eternal life, by virtue of the covenant of grace.";
+  //Paragraph 3
   static var p3Sec11 = "This faith, although it be in different stages, and may be weak or strong,";
   static var p3Sec12 = " yet it is in the least degree of it different in the kind or nature of it, as is all other saving grace, from the faith and common grace of temporary believers;";
   static var p3Sec13 = " and therefore, though it may be many times assailed and weakened, yet it gets the victory,";
   static var p3Sec14 = " growing up in many to the attainment of a full assurance through Christ,";
   static var p3Sec15 = " who is both the author and finisher of our faith.";
+}
+
+class ChapterFifteenData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "Such of the elect that are converted at riper years, having sometime lived in the state of nature, and therein served divers pleasures, God in their effectual calling gives them repentance to life.";
+//Paragraph 2
+  static var p2Sec2 = "Whereas there is none that does good and does not sin,";
+  static var p2Sec3 =
+      " and the best of men may, through the power and deceitfulness of their corruption dwelling in them, with the prevalency of temptation, fall in to great sins and provocations; God has, in the covenant of grace, mercifully provided that believers so sinning and falling be renewed through repentance unto salvation.";
+//Paragraph 3
+  static var p3Sec4 = "This saving repentance is an evangelical grace,";
+  static var p3Sec5 =
+      " whereby a person, being by the Holy Spirit made sensible of the manifold evils of his sin, does, by faith in Christ, humble himself for it with godly sorrow, detestation of it, and self–abhorrancy,";
+  static var p3Sec6 = " praying for pardon and strength of grace, with a purpose and endeavor, by supplies of the Spirit, to walk before God unto all well–pleasing in all things.";
+//Paragraph 4
+  static var p4Sec7 =
+      "As repentance is to be continued through the whole course of our lives, upon the account of the body of death, and the motions thereof, so it is every man’s duty to repent of his particular known sins particularly.";
+//Paragraph 5
+  static var p5Sec8 =
+      "Such is the provision which God has made through Christ in the covenant of grace for the preservation of believers unto salvation, that although there is no sin so small but it deserves damnation,";
+  static var p5Sec9 = " yet there is no sin so great that it shall bring damnation to them that repent,";
+  static var p5Sec9end = " which makes the constant preaching of repentance necessary.";
+}
+
+class ChapterSixteenData {
+  //Paragraph 1
+  static var p1Sec1 = "Good works are only such as God has commanded in his Holy Word,";
+  static var p1Sec2 = " and not such as without the warrant thereof are devised by men out of blind zeal, or upon any pretense of good intentions.";
+  static var p2Sec3 = "These good works, done in obedience to God’s commandments, are the fruits and evidences of a true and lively faith;";
+  static var p2Sec4 = " and by them believers manifest their thankfulness,";
+  static var p2Sec5 = " strengthen their assurance,";
+  static var p2Sec6 = " edify their brethren, adorn the profession of the gospel,";
+  static var p2Sec7 = " stop the mouths of the adversaries, and glory God,";
+  static var p2Sec8 = " whose workmanship they are, created in Christ Jesus thereunto,";
+  static var p2Sec9 = " that having their fruit unto holiness they may have the end eternal life.";
+  static var p3Sec10 = "Their ability to do good works is not all of themselves, but wholly from the Spirit of Christ;";
+  static var p3Sec11 =
+      " and that they may be enabled thereunto, besides the graces they have already received, there is necessary an actual influence of the same Holy Spirit, to work in them and to will and to do of his good pleasure;";
+  static var p3Sec12 = " yet they are not bound to perform any duty, unless upon a special motion of the Spirit, but they ought to be diligent in stirring up the grace of God that is in them.";
+  static var p4Sec13 =
+      "They who in their obedience attain to the greatest height which is possible in this life, are so far from being able to supererogate, and to do more than God requires, as that they fall short of much which in duty they are bound to do.";
+  static var p5Sec14 =
+      "We cannot by our best works merit pardon of sin or eternal life at the hand of God, by reason of the great disproportion that is between them and the glory to come, and the infinite distance that is between us and God, whom by them we can neither profit nor satisfy for the debt of our former sins;";
+  static var p5Sec15 = " but when we have done all we can, we have done but our duty, and are unprofitable servants; and because they are good they proceed from his Spirit,";
+  static var p5Sec16 = " and as they are wrought by us they are defiled and mixed with so much weekness and imperfection, that they cannot endure the severity of God’s punishment.";
+  static var p6Sec17 = "Yet notwithstanding the persons of believers being accepted through Christ, their good works also are accepted in him;";
+  static var p6Sec18 =
+      " not as thought they were in this life wholly unblamable and unreprovable in God’s sight, but that he, looking upon them in his Son, is pleased to accept and reward that which is sincere, although accompanied with many weaknesses and imperfection.";
+  static var p7Sec19 = "Works done by unregenerate men, although for the matter of them they may be things which God commands, and of good use both to themselves and to others;";
+  static var p7Sec20 = " yet because they proceed not from a heart purified by faith,";
+  static var p7Sec21 = " nor are done in a right manner according to the Word,";
+  static var p7Sec22 = " nor to a right end, the glory of God,";
+  static var p7Sec23 = " they are therfore sinful, and cannot please God, nor make a man meet to receive the grace from God,";
+  static var p7Sec24 = " and yet their neglect for them is more sinful and displeasing to God.";
 }

@@ -13,7 +13,7 @@ class Chapter14 extends StatelessWidget {
     return Scaffold(
       appBar: Layout.defaultAppBar(),
       drawer: Layout.defaultDrawer(context),
-      floatingActionButton: Layout.paragraphButton([par1]),
+      floatingActionButton: Layout.paragraphButton([par1, par2, par3]),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(12.0),
