@@ -472,3 +472,115 @@ class ChapterSixteenData {
   static var p7Sec23 = " they are therfore sinful, and cannot please God, nor make a man meet to receive the grace from God,";
   static var p7Sec24 = " and yet their neglect for them is more sinful and displeasing to God.";
 }
+
+class ChapterSeventeenData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "Those whom God has accepted in the beloved, effectually called and sanctified by his Spirit, and given the precious faith of his elect unto, can neither totally nor finally fall from the state of grace, but shall certainly persevere therein to the end, and be eternally saved, seeing the gifts and callings of God are without repentance, from which source he still begets and nourishes in them faith, repentance, love, joy, hope, and all the graces of the Spirit unto immortality;";
+  static var p1Sec2 =
+      " and though many storms and floods arise and beat against them, yet they shall never be able to take them off that foundation and rock which by faith they are fastened upon; notwithstanding, through unbelief and the temptations of Satan, the sensible sight of the light and love of God may for a time be clouded and obscured from them,";
+  static var p1Sec3 =
+      " yet he is still the same, and they shall be sure to be kept by the power of God unto salvation, where they shall enjoy their purchased possession, they being engraved upon the palm of his hands, and their names having been written in the book of life from all eternity.";
+  //Paragraph 2
+  static var p2Sec4 = "This perseverance of the saints depends not upon their own free will, but upon the immutability of the decree of election,";
+  static var p2Sec5 = " flowing from the free and unchangeable love of God the Father, upon the efficacy of the merit and intercession of Jesus Christ and union with him,";
+  static var p2Sec6 = " the oath of God,";
+  static var p2Sec7 = " the abiding of his Spirit, and the seed of God within them,";
+  static var p2Sec8 = " and the nature of the covenant of grace;";
+  static var p2Sec8end = " from all which ariseth also the certainty and infallibility thereof.";
+  //Paragraph 3
+  static var p3Sec9 =
+      "And though they may, through the temptation of Satan and of the world, the prevalency of corruption remaining in them, and the neglect of means of their preservation, fall into grievous sins, and for a time continue therein,";
+  static var p3Sec10 = " whereby they incur God's displeasure and grieve his Holy Spirit,";
+  static var p3Sec11 = " come to have their graces and comforts impaired,";
+  static var p3Sec12 = " have their hearts hardened, and their consciences wounded,";
+  static var p3Sec13 = " hurt and scandalize others, and bring temporal judgments upon themselves,";
+  static var p3Sec14 = " yet shall they renew their repentance and be preserved through faith in Christ Jesus to the end.";
+}
+
+class ChapterEighteenData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "Although temporary believers and other unregenerate men, may vainly deceive themselves with false hopes and carnal presumptions of being in the favor of God and in a state of salvation, which hope of theirs shall perish;";
+  static var p1Sec2 =
+      " yet such as truly believe in the Lord Jesus, and love him in sincerity, endeavouring to walk in all good conscience before him, may in this life be certainly assured that they are in the state of grace, and may rejoice in the hope of the glory of God,";
+  static var p1Sec3 = " which hope shall never make them ashamed.";
+  //Paragraph 2
+  static var p2Sec4 = "This certainty is not a bare conjectural and probable persuasion grounded upon a fallible hope, but an infallible assurance of faith,";
+  static var p2Sec5 = " founded on the blood and righteousness of Christ revealed in the Gospel;";
+  static var p2Sec6 = " and also upon the inward evidence of those graces of the Spirit unto which promises are made,";
+  static var p2Sec7 = " and on the testimony of the Spirit of adoption, witnessing with our spirits that we are the children of God;";
+  static var p2Sec8 = " and, as a fruit thereof, keeping the heart both humble and holy.";
+  //Paragraph 3
+  static var p3Sec9 = "This infallible assurance does not so belong to the essence of faith, but that a true believer may wait long, and struggle with many difficulties before he be partaker of it;";
+  static var p3Sec10 = " yet being enabled by the Spirit to know the things which are freely given him of God, he may, without extraordinary revelation, in the right use of means, attain thereunto:";
+  static var p3Sec11 =
+      " and therefore it is the duty of every one to give all diligence to make his calling and election sure, that thereby his heart may be enlarged in peace and joy in the Holy Spirit, in love and thankfulness to God, and in strength and cheerfulness in the duties of obedience, the proper fruits of this assurance;";
+  static var p3Sec12 = "—so far is it from inclining men to looseness.";
+  //Paragraph 4
+  static var p4Sec13 = "True believers may have the assurance of their salvation divers ways shaken, diminished, and intermitted; as by negligence in preserving of it,";
+  static var p4Sec14 = " by falling into some special sin which wounds the conscience and grieves the Spirit;";
+  static var p4Sec15 = " by some sudden or vehement temptation,";
+  static var p4Sec16 = " by God's withdrawing the light of his countenance, and suffering even such as fear him to walk in darkness and to have no light,";
+  static var p4Sec17 = " yet are they never destitute of the seed of God";
+  static var p4Sec18 = " and life of faith,";
+  static var p4Sec19 = " that love of Christ and the brethren, that sincerity of heart and conscience of duty out of which, by the operation of the Spirit, this assurance may in due time be revived,";
+  static var p4Sec20 = " and by the which, in the meantime, they are preserved from utter despair.";
+}
+
+class ChapterNineteenData {
+  //Paragraph 1
+  static var p1Sec1 = "God gave to Adam a law of universal obedience written in his heart, and a particular precept of not eating the fruit of the tree of knowledge of good and evil;";
+  static var p1Sec2 = " by which he bound him and all his posterity to personal, entire, exact, and perpetual obedience;";
+  static var p1Sec3 = " promised life upon the fulfilling, and threatened death upon the breach of it, and endued him with power and ability to keep it.";
+//Paragraph 2
+  static var p2Sec4 = "The same law that was first written in the heart of man continued to be a perfect rule of righteousness after the fall,";
+  static var p2Sec5 = " and was delivered by God upon Mount Sinai, in ten commandments, and written in two tables, the four first containing our duty towards God, and the other six, our duty to man.";
+//Paragraph 3
+  static var p3Sec6 =
+      "Besides this law, commonly called moral, God was pleased to give to the people of Israel ceremonial laws, containing several typical ordinances, partly of worship, prefiguring Christ, his graces, actions, sufferings, and benefits;";
+  static var p3Sec7 = " and partly holding forth divers instructions of moral duties,";
+  static var p3Sec8 =
+      " all which ceremonial laws being appointed only to the time of reformation, are, by Jesus Christ the true Messiah and only law-giver, who was furnished with power from the Father for that end abrogated and taken away.";
+//Paragraph 4
+  static var p4Sec9 =
+      "To them also he gave sundry judicial laws, which expired together with the state of that people, not obliging any now by virtue of that institution; their general equity only being of modern use.";
+//Paragraph 5
+  static var p5Sec10 = "The moral law does for ever bind all, as well justified persons as others, to the obedience thereof,";
+  static var p5Sec11 = " and that not only in regard of the matter contained in it, but also in respect of the authority of God the Creator, who gave it;";
+  static var p5Sec12 = " neither does Christ in the Gospel any way dissolve, but much strengthen this obligation.";
+//Paragraph 6
+  static var p6Sec13 = "Although true believers are not under the law as a covenant of works, to be thereby justified or condemned,";
+  static var p6Sec14 =
+      " yet it is of great use to them as well as to others, in that as a rule of life, informing them of the will of God and their duty, it directs and binds them to walk accordingly; discovering also the sinful pollutions of their natures, hearts, and lives, so as examining themselves thereby, they may come to further conviction of, humiliation for, and hatred against, sin;";
+  static var p6Sec15 =
+      " together with a clearer sight of the need they have of Christ and the perfection of his obedience; it is likewise of use to the regenerate to restrain their corruptions, in that it forbids sin; and the threatenings of it serve to show what even their sins deserve, and what afflictions in this life they may expect for them, although freed from the curse and unallayed rigour thereof. The promises of it likewise show them God's approbation of obedience, and what blessings they may expect upon the performance thereof, though not as due to them by the law as a covenant of works; so as man's doing good and refraining from evil, because the law encourages to the one and deters from the other, is no evidence of his being under the law and not under grace.";
+  //Paragraph 7
+  static var p7Sec16 = "Neither are the aforementioned uses of the law contrary to the grace of the Gospel, but do sweetly comply with it,";
+  static var p7Sec17 = " the Spirit of Christ subduing and enabling the will of man to do that freely and cheerfully which the will of God, revealed in the law, requires to be done.";
+}
+
+class ChapterTwentyData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "The covenant of works being broken by sin, and made unprofitable unto life, God was pleased to give forth the promise of Christ, the seed of the woman, as the means of calling the elect, and begetting in them faith and repentance;";
+  static var p1Sec2 = " in this promise the gospel, as to the substance of it, was revealed, and [is] therein effectual for the conversion and salvation of sinners.";
+
+//Paragraph 2
+  static var p2Sec3 = "This promise of Christ, and salvation by him, is revealed only by the Word of God;";
+  static var p2Sec4 = " neither do the works of creation or providence, with the light of nature, make discovery of Christ, or of grace by him, so much as in a general or obscure way;";
+  static var p2Sec5 = " much less that men destitute of the revelation of Him by the promise or gospel, should be enabled thereby to attain saving faith or repentance.";
+
+//Paragraph 3
+  static var p3Sec6 =
+      "The revelation of the gospel to sinners, made in divers times and by sundry parts, with the addition of promises and precepts for the obedience required therein, as to the nations and persons to whom it is granted, is merely of the sovereign will and good pleasure of God;";
+  static var p3Sec7 =
+      " not being annexed by virtue of any promise to the due improvement of men's natural abilities, by virtue of common light received without it, which none ever made, or can do so;";
+  static var p3Sec7end =
+      " and therefore in all ages, the preaching of the gospel has been granted unto persons and nations, as to the extent or straitening of it, in great variety, according to the counsel of the will of God.";
+
+//Paragraph 4
+  static var p4Sec8 =
+      "Although the gospel be the only outward means of revealing Christ and saving grace, and is, as such, abundantly sufficient thereunto; yet that men who are dead in trespasses may be born again, quickened or regenerated, there is moreover necessary an effectual insuperable work of the Holy Spirit upon the whole soul, for the producing in them a new spiritual life;";
+  static var p4Sec9 = " without which no other means will effect their conversion unto God.";
+}

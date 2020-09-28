@@ -17,7 +17,7 @@ class Chapter16 extends StatelessWidget {
     return Scaffold(
       appBar: Layout.defaultAppBar(),
       drawer: Layout.defaultDrawer(context),
-      floatingActionButton: Layout.paragraphButton([par1, par2, par3, par4, par5]),
+      floatingActionButton: Layout.paragraphButton([par1, par2, par3, par4, par5, par6, par7]),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(12.0),
