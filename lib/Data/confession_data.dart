@@ -584,3 +584,312 @@ class ChapterTwentyData {
       "Although the gospel be the only outward means of revealing Christ and saving grace, and is, as such, abundantly sufficient thereunto; yet that men who are dead in trespasses may be born again, quickened or regenerated, there is moreover necessary an effectual insuperable work of the Holy Spirit upon the whole soul, for the producing in them a new spiritual life;";
   static var p4Sec9 = " without which no other means will effect their conversion unto God.";
 }
+
+class ChapterTwentyOneData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "The liberty which Christ has purchased for believers under the gospel, consists in their freedom from the guilt of sin, the condemning wrath of God, the severity and curse of the law,";
+  static var p1Sec2 = " and in their being delivered from this present evil world,";
+  static var p1Sec3 = " bondage to Satan,";
+  static var p1Sec4 = " and dominion of sin,";
+  static var p1Sec5 = " from the evil of afflictions,";
+  static var p1Sec6 = " the fear and sting of death, the victory of the grave,";
+  static var p1Sec7 = " and everlasting damnation:";
+  static var p1Sec8 = " as also in their free access to God, and their yielding obedience unto Him, not out of slavish fear,";
+  static var p1Sec9 = " but a child-like love and willing mind.";
+  static var p1Sec10 = " All which were common also to believers under the law for the substance of them;";
+  static var p1Sec11 =
+      " but under the New Testament the liberty of Christians is further enlarged, in their freedom from the yoke of a ceremonial law, to which the Jewish church was subjected, and in greater boldness of access to the throne of grace, and in fuller communications of the free Spirit of God, than believers under the law did ordinarily partake of.";
+  //Paragraph 2
+  static var p2Sec12 = "God alone is Lord of the conscience,";
+  static var p2Sec13 = " and has left it free from the doctrines and commandments of men which are in any thing contrary to his word, or not contained in it.";
+  static var p2Sec14 = " So that to believe such doctrines, or obey such commands out of conscience, is to betray true liberty of conscience;";
+  static var p2Sec15 = " and the requiring of an implicit faith, an absolute and blind obedience, is to destroy liberty of conscience and reason also.";
+  //Paragraph 3
+  static var p3Sec16 =
+      "They who upon pretence of Christian liberty do practice any sin, or cherish any sinful lust, as they do thereby pervert the main design of the grace of the gospel to their own destruction,";
+  static var p3Sec17 =
+      " so they wholly destroy the end of Christian liberty, which is, that being delivered out of the hands of all our enemies, we might serve the Lord without fear, in holiness and righteousness before Him, all the days of our lives.";
+}
+
+class ChapterTwentyTwoData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "The light of nature shows that there is a God, who has lordship and sovereignty over all; is just, good and does good to all; and is therefore to be feared, loved, praised, called upon, trusted in, and served, with all the heart and all the soul, and with all the might.";
+  static var p1Sec2 = " But the acceptable way of worshipping the true God, is instituted by himself,";
+  static var p1Sec3 =
+      " and so limited by his own revealed will, that he may not be worshipped according to the imagination and devices of men, nor the suggestions of Satan, under any visible representations, or any other way not prescribed in the Holy Scriptures.";
+  //Paragraph 2
+  static var p2Sec4 = "Religious worship is to be given to God the Father, Son, and Holy Spirit, and to him alone;";
+  static var p2Sec5 = "not to angels, saints, or any other creatures;";
+  static var p2Sec6 = " and since the fall, not without a mediator,";
+  static var p2Sec7 = " nor in the mediation of any other but Christ alone.";
+  //Paragraph 3
+  static var p3Sec8 = "Prayer, with thanksgiving, being one part of natural worship, is by God required of all men.";
+  static var p3Sec9 = " But that it may be accepted, it is to be made in the name of the Son,";
+  static var p3Sec10 = " by the help of the Spirit,";
+  static var p3Sec11 = " according to his will;";
+  static var p3Sec12 = " with understanding, reverence, humility, fervency, faith, love, and perseverance; and when with others, in a known tongue.";
+
+  //Paragraph 4
+  static var p4Sec13 = "Prayer is to be made for things lawful, and for all sorts of men living, or that shall live hereafter;";
+  static var p4Sec14 = " but not for the dead,";
+  static var p4Sec15 = " nor for those of whom it may be known that they have sinned the sin unto death.";
+
+  //Paragraph 5
+  static var p5Sec16 = "The reading of the Scriptures,";
+  static var p5Sec17 = " preaching, and hearing the Word of God,";
+  static var p5Sec18 = " teaching and admonishing one another in psalms, hymns, and spiritual songs, singing with grace in our hearts to the Lord;";
+  static var p5Sec19 = " as also the administration of baptism,";
+  static var p5Sec20 = " and the Lord's supper,";
+  static var p5Sec21 =
+      " are all parts of religious worship of God, to be performed in obedience to him, with understanding, faith, reverence, and godly fear; moreover, solemn humiliation, with fastings,";
+  static var p5Sec22 = " and thanksgivings, upon special occasions, ought to be used in an holy and religious manner.";
+
+  //Paragraph 6
+  static var p6Sec23 =
+      "Neither prayer nor any other part of religious worship, is now under the gospel, tied unto, or made more acceptable by any place in which it is performed, or towards which it is directed; but God is to be worshipped everywhere in spirit and in truth;";
+  static var p6Sec24 = " as in private families";
+  static var p6Sec25 = " daily,";
+  static var p6Sec26 = " and in secret each one by himself;";
+  static var p6Sec27 = " so more solemnly in the public assemblies, which are not carelessly nor wilfully to be neglected or forsaken, when God by his word or providence calls thereunto.";
+
+  //Paragraph 7
+  static var p7Sec28 =
+      "As it is the law of nature, that in general a proportion of time, by God's appointment, be set apart for the worship of God, so by his Word, in a positive moral, and perpetual commandment, binding all men, in all ages, he has particularly appointed one day in seven for a sabbath to be kept holy unto him,";
+  static var p7Sec29 =
+      " which from the beginning of the world to the resurrection of Christ was the last day of the week, and from the resurrection of Christ was changed into the first day of the week, which is called the Lord's Day:";
+  static var p7Sec29end = " and is to be continued to the end of the world as the Christian Sabbath, the observation of the last day of the week being abolished.";
+
+  //Paragraph 8
+  static var p8Sec30 =
+      "The sabbath is then kept holy unto the Lord, when men, after a due preparing of their hearts, and ordering their common affairs aforehand, do not only observe a holy rest all day, from their own works, words and thoughts, about their worldly employment and recreations,";
+  static var p8Sec31 = " but are also taken up the whole time in the public and private exercises of his worship, and in the duties of necessity and mercy.";
+}
+
+class ChapterTwentyThreeData {
+  //Paragraph 1
+  static var p1Sec1 = "A lawful oath is a part of religious worship, wherein the person swearing in truth, righteousness, and judgment, solemnly calls God to witness what he swears,";
+  static var p1Sec2 = " and to judge him according to the truth or falseness thereof.";
+  //Paragraph 2
+  static var p2Sec3 =
+      "The name of God only is that by which men ought to swear; and therein it is to be used, with all holy fear and reverence; therefore to swear vainly or rashly by that glorious and dreadful name, or to swear at all by any other thing, is sinful, and to be abhorred;";
+  static var p2Sec4 = " yet as in matter of weight and moment, for confirmation of truth, and ending all strife, an oath is warranted by the word of God;";
+  static var p2Sec5 = " so a lawful oath being imposed by lawful authority in such matters, ought to be taken.";
+  //Paragraph 3
+  static var p3Sec6 =
+      "Whosoever takes an oath warranted by the word of God, ought duly to consider the weightiness of so solemn an act, and therein to avouch nothing but what he knows to be truth; for that by rash, false, and vain oaths, the Lord is provoked, and for them this land mourns.";
+  //Paragraph 4
+  static var p4Sec7 = "An oath is to be taken in the plain and common sense of the words, without equivocation or mental reservation.";
+  //Paragraph 5
+  static var p5Sec8 = "A vow, which is not to be made to any creature, but to God alone, is to be made and performed with all religious care and faithfulness;";
+  static var p5Sec9 = " but popish monastical vows of perpetual single life,";
+  static var p5Sec10 = " professed poverty,";
+  static var p5Sec11 = " and regular obedience, are so far from being degrees of higher perfection, that they are superstitious and sinful snares, in which no Christian may entangle himself.";
+}
+
+class ChapterTwentyFourData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "God, the supreme Lord and King of all the world, has ordained civil magistrates to be under him, over the people, for his own glory and the public good; and to this end has armed them with the power of the sword, for defence and encouragement of them that do good, and for the punishment of evil doers.";
+  //Paragraph 2
+  static var p2Sec2 =
+      "It is lawful for Christians to accept and execute the office of a magistrate when called thereunto; in the management whereof, as they ought especially to maintain justice and peace,";
+  static var p2Sec3 = " according to the wholesome laws of each kingdom and commonwealth, so for that end they may lawfully now, under the New Testament, wage war upon just and necessary occasions.";
+  //Paragraph 3
+  static var p3Sec4 =
+      "Civil magistrates being set up by God for the ends aforesaid; subjection, in all lawful things commanded by them, ought to be yielded by us in the Lord, not only for wrath, but for conscience’ sake;";
+  static var p3Sec5 = " and we ought to make supplications and prayers for kings and all that are in authority, that under them we may live a quiet and peaceable life, in all godliness and honesty.";
+}
+
+class ChapterTwentyFiveData {
+  //Paragraph 1
+  static var p1Sec1 = "Marriage is to be between one man and one woman; neither is it lawful for any man to have more than one wife, nor for any woman to have more than one husband at the same time.";
+  //Paragraph 2
+  static var p2Sec2 = "Marriage was ordained for the mutual help of husband and wife,";
+  static var p2Sec3 = " for the increase of mankind with a legitimate issue,";
+  static var p2Sec4 = " and the preventing of uncleanness.";
+  //Paragraph 3
+  static var p3Sec5 = "It is lawful for all sorts of people to marry, who are able with judgment to give their consent;";
+  static var p3Sec6 = " yet it is the duty of Christians to marry in the Lord;";
+  static var p3Sec7 =
+      " and therefore such as profess the true religion, should not marry with infidels, or idolaters; neither should such as are godly, be unequally yoked, by marrying with such as are wicked in their life, or maintain damnable heresy.";
+  //Paragraph 4
+  static var p4Sec8 = "Marriage ought not to be within the degrees of consanguinity or affinity, forbidden in the Word;";
+  static var p4Sec9 = " nor can such incestuous marriages ever be made lawful, by any law of man or consent of parties, so as those persons may live together as man and wife.";
+}
+
+class ChapterTwentySixData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "The catholic or universal church, which (with respect to the internal work of the Spirit and truth of grace) may be called invisible, consists of the whole number of the elect, that have been, are, or shall be gathered into one, under Christ, the head thereof; and is the spouse, the body, the fulness of him that fills all in all.";
+  //Paragraph 2
+  static var p2Sec2 =
+      "All persons throughout the world, professing the faith of the gospel, and obedience unto God by Christ according unto it, not destroying their own profession by any errors everting the foundation, or unholiness of conversation, are and may be called visible saints;";
+  static var p2Sec3 = " and of such ought all particular congregations to be constituted.";
+  //Paragraph 3
+  static var p3Sec4 = "The purest churches under heaven are subject to mixture and error;";
+  static var p3Sec5 = " and some have so degenerated as to become no churches of Christ, but synagogues of Satan;";
+  static var p3Sec6 = " nevertheless Christ always has had, and ever shall have a kingdom in this world, to the end thereof, of such as believe in him, and make profession of his name.";
+  //Paragraph 4
+  static var p4Sec7 =
+      "The Lord Jesus Christ is the Head of the church, in whom, by the appointment of the Father, all power for the calling, institution, order or government of the church, is invested in a supreme and sovereign manner;";
+  static var p4Sec8 =
+      " neither can the Pope of Rome in any sense be head thereof, but is that antichrist, that man of sin, and son of perdition, that exalts himself in the church against Christ, and all that is called God; whom the Lord shall destroy with the brightness of his coming.";
+  //Paragraph 5
+  static var p5Sec9 =
+      "In the execution of this power wherewith he is so intrusted, the Lord Jesus calls out of the world unto himself, through the ministry of his word, by his Spirit, those that are given unto him by his Father,";
+  static var p5Sec10 = " that they may walk before him in all the ways of obedience, which he prescribes to them in his word.";
+  static var p5Sec11 =
+      " Those thus called, he commands to walk together in particular societies, or churches, for their mutual edification, and the due performance of that public worship, which he requires of them in the world.";
+  //Paragraph 6
+  static var p6Sec12 = "The members of these churches are saints by calling, visibly manifesting and evidencing (in and by their profession and walking) their obedience unto that call of Christ;";
+  static var p6Sec13 =
+      " and do willingly consent to walk together, according to the appointment of Christ; giving up themselves to the Lord, and one to another, by the will of God, in professed subjection to the ordinances of the Gospel.";
+  //Paragraph 7
+  static var p7Sec14 =
+      "To each of these churches therefore gathered, according to his mind declared in his word, he has given all that power and authority, which is in any way needful for their carrying on that order in worship and discipline, which he has instituted for them to observe; with commands and rules for the due and right exerting, and executing of that power.";
+  //Paragraph 8
+  static var p8Sec15 =
+      "A particular church, gathered and completely organized according to the mind of Christ, consists of officers and members; and the officers appointed by Christ to be chosen and set apart by the church (so called and gathered), for the peculiar administration of ordinances, and execution of power or duty, which he intrusts them with, or calls them to, to be continued to the end of the world, are bishops or elders, and deacons.";
+  //Paragraph 9
+  static var p9Sec16 =
+      "The way appointed by Christ for the calling of any person, fitted and gifted by the Holy Spirit, unto the office of bishop or elder in a church, is, that he be chosen thereunto by the common suffrage of the church itself;";
+  static var p9Sec17 = " and solemnly set apart by fasting and prayer, with imposition of hands of the eldership of the church, if there be any before constituted therein;";
+  static var p9Sec18 = " and of a deacon that he be chosen by the like suffrage, and set apart by prayer, and the like imposition of hands.";
+  //Paragraph 10
+  static var p10Sec19 =
+      "The work of pastors being constantly to attend the service of Christ, in his churches, in the ministry of the word and prayer, with watching for their souls, as they that must give an account to Him;";
+  static var p10Sec20 =
+      " it is incumbent on the churches to whom they minister, not only to give them all due respect, but also to communicate to them of all their good things according to their ability,";
+  static var p10Sec21 = " so as they may have a comfortable supply, without being themselves entangled in secular affairs;";
+  static var p10Sec22 = " and may also be capable of exercising hospitality towards others;";
+  static var p10Sec23 = " and this is required by the law of nature, and by the express order of our Lord Jesus, who has ordained that they that preach the Gospel should live of the Gospel.";
+  //Paragraph 11
+  static var p11Sec24 =
+      "Although it be incumbent on the bishops or pastors of the churches, to be instant in preaching the word, by way of office, yet the work of preaching the word is not so peculiarly confined to them but that others also gifted and fitted by the Holy Spirit for it, and approved and called by the church, may and ought to perform it.";
+  //Paragraph 12
+  static var p12Sec25 =
+      "As all believers are bound to join themselves to particular churches, when and where they have opportunity so to do; so all that are admitted unto the privileges of a church, are also under the censures and government thereof, according to the rule of Christ.";
+  //Paragraph 13
+  static var p13Sec26 =
+      "No church members, upon any offence taken by them, having performed their duty required of them towards the person they are offended at, ought to disturb any church-order, or absent themselves from the assemblies of the church, or administration of any ordinances, upon the account of such offence at any of their fellow members, but to wait upon Christ, in the further proceeding of the church.";
+  //Paragraph 14
+  static var p14Sec27 = "As each church, and all the members of it, are bound to pray continually for the good and prosperity of all the churches of Christ,";
+  static var p14Sec28 =
+      " in all places, and upon all occasions to further every one within the bounds of their places and callings, in the exercise of their gifts and graces, so the churches, when planted by the providence of God, so as they may enjoy opportunity and advantage for it, ought to hold communion among themselves, for their peace, increase of love, and mutual edification.";
+  //Paragraph 15
+  static var p15Sec29 =
+      "In cases of difficulties or differences, either in point of doctrine or administration, wherein either the churches in general are concerned, or any one church, in their peace, union, and edification; or any member or members of any church are injured, in or by any proceedings in censures not agreeable to truth and order: it is according to the mind of Christ, that many churches holding communion together, do, by their messengers, meet to consider, and give their advice in or about that matter in difference, to be reported to all the churches concerned;";
+  static var p15Sec30 =
+      " howbeit these messengers assembled, are not intrusted with any church-power properly so called; or with any jurisdiction over the churches themselves, to exercise any censures either over any churches or persons; or to impose their determination on the churches or officers.";
+}
+
+class ChapterTwentySevenData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "All saints that are united to Jesus Christ, their head, by his Spirit, and faith, although they are not made thereby one person with him, have fellowship in his graces, sufferings, death, resurrection, and glory;";
+  static var p1Sec2 = " and, being united to one another in love, they have communion in each others gifts and graces,";
+  static var p1Sec3 = " and are obliged to the performance of such duties, public and private, in an orderly way, as do conduce to their mutual good, both in the inward and outward man.";
+  //Paragraph 2
+  static var p2Sec4 =
+      "Saints by profession are bound to maintain a holy fellowship and communion in the worship of God, and in performing such other spiritual services as tend to their mutual edification;";
+  static var p2Sec5 = " as also in relieving each other in outward things according to their several abilities, and necessities;";
+  static var p2Sec6 = " which communion, according to the rule of the gospel, though especially to be exercised by them, in the relation wherein they stand, whether in families,";
+  static var p2Sec7 = " or churches,";
+  static var p2Sec8 =
+      " yet, as God offers opportunity, is to be extended to all the household of faith, even all those who in every place call upon the name of the Lord Jesus; nevertheless their communion one with another as saints, does not take away or infringe the title or propriety which each man has in his goods and possessions.";
+}
+
+class ChapterTwentyEightData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "Baptism and the Lord's Supper are ordinances of positive and sovereign institution, appointed by the Lord Jesus, the only lawgiver, to be continued in his church to the end of the world.";
+  //Paragraph 2
+  static var p2Sec2 = "These holy appointments are to be administered by those only who are qualified and thereunto called, according to the commission of Christ.";
+}
+
+class ChapterTwentyNineData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "Baptism is an ordinance of the New Testament, ordained by Jesus Christ, to be unto the party baptized, a sign of his fellowship with him, in his death and resurrection; of his being engrafted into him;";
+  static var p1Sec2 = " of remission of sins;";
+  static var p1Sec3 = " and of giving up into God, through Jesus Christ, to live and walk in newness of life.";
+  //Paragraph 2
+  static var p2Sec4 = "Those who do actually profess repentance towards God, faith in, and obedience to, our Lord Jesus Christ, are the only proper subjects of this ordinance.";
+  //Paragraph 3
+  static var p3Sec5 = "The outward element to be used in this ordinance is water, wherein the party is to be baptized, in the name of the Father, and of the Son, and of the Holy Spirit.";
+  //Paragraph 4
+  static var p4Sec6 = "Immersion, or dipping of the person in water, is necessary to the due administration of this ordinance.";
+}
+
+class ChapterThirtyData {
+  //Paragraph 1
+  static var p1Sec1 =
+      "The supper of the Lord Jesus was instituted by him the same night wherein he was betrayed, to be observed in his churches, unto the end of the world, for the perpetual remembrance, and showing to all the world the sacrifice of himself in his death,";
+  static var p1Sec2 =
+      " confirmation of the faith of believers in all the benefits thereof, their spiritual nourishment, and growth in him, their further engagement in, and to all duties which they owe to him; and to be a bond and pledge of their communion with him, and with each other.";
+  //Paragraph 2
+  static var p2Sec3 =
+      "In this ordinance Christ is not offered up to his Father, nor any real sacrifice made at all for remission of sin of the quick or dead, but only a memorial of that one offering up of himself by himself upon the cross, once for all;";
+  static var p2Sec4 = " and a spiritual oblation of all possible praise unto God for the same.";
+  static var p2Sec4end = " So that the popish sacrifice of the mass, as they call it, is most abominable, injurious to Christ's own sacrifice the alone propitiation for all the sins of the elect.";
+  //Paragraph 3
+  static var p3Sec5 =
+      "The Lord Jesus hath, in this ordinance, appointed his ministers to pray, and bless the elements of bread and wine, and thereby to set them apart from a common to a holy use, and to take and break the bread; to take the cup, and, they communicating also themselves, to give both to the communicants.";
+  //Paragraph 4
+  static var p4Sec6 =
+      "The denial of the cup to the people, worshipping the elements, the lifting them up, or carrying them about for adoration, and reserving them for any pretended religious use, are all contrary to the nature of this ordinance, and to the institution of Christ.";
+  //Paragraph 5
+  static var p5Sec7 =
+      "The outward elements in this ordinance, duly set apart to the use ordained by Christ, have such relation to him crucified, as that truly, although in terms used figuratively, they are sometimes called by the names of the things they represent, in other words, the body and blood of Christ,";
+  static var p5Sec8 = " albeit, in substance and nature, they still remain truly and only bread and wine, as they were before.";
+  //Paragraph 6
+  static var p6Sec9 =
+      "That doctrine which maintains a change of the substance of bread and wine, into the substance of Christ's body and blood, commonly called transubstantiation, by consecration of a priest, or by any other way, is repugnant not to Scripture alone,";
+  static var p6Sec10 = " but even to common sense and reason, overthrows the nature of the ordinance, and has been, and is, the cause of manifold superstitions, yea, of gross idolatries.";
+  //Paragraph 7
+  static var p7Sec11 =
+      "Worthy receivers, outwardly partaking of the visible elements in this ordinance, do then also inwardly by faith, really and indeed, yet not carnally and corporally, but spiritually receive, and feed upon Christ crucified, and all the benefits of his death; the body and blood of Christ being then not corporally or carnally, but spiritually present to the faith of believers in that ordinance, as the elements themselves are to their outward senses.";
+  //Paragraph 8
+  static var p8Sec12 =
+      "All ignorant and ungodly persons, as they are unfit to enjoy communion with Christ, so are they unworthy of the Lord's table, and cannot, without great sin against him, while they remain such, partake of these holy mysteries, or be admitted thereunto;";
+  static var p8Sec13 = " yea, whosoever shall receive unworthily, are guilty of the body and blood of the Lord, eating and drinking judgment to themselves.";
+}
+
+class ChapterThirtyOneData {
+  //Paragraph 1
+  static var p1Sec1 = "The bodies of men after death return to dust, and see corruption;";
+  static var p1Sec2 = " but their souls, which neither die nor sleep, having an immortal subsistence, immediately return to God who gave them.";
+  static var p1Sec3 =
+      " The souls of the righteous being then made perfect in holiness, are received into paradise, where they are with Christ, and behold the face of God in light and glory, waiting for the full redemption of their bodies;";
+  static var p1Sec4 = " and the souls of the wicked are cast into hell; where they remain in torment and utter darkness, reserved to the judgment of the great day;";
+  static var p1Sec4end = " besides these two places, for souls separated from their bodies, the Scripture acknowledgeth none.";
+  //Paragraph 2
+  static var p2Sec5 = "At the last day, such of the saints as are found alive, shall not sleep, but be changed;";
+  static var p2Sec6 = " and all the dead shall be raised up with the selfsame bodies, and none other;";
+  static var p2Sec7 = " although with different qualities, which shall be united again to their souls forever.";
+  //Paragraph 3
+  static var p3Sec8 =
+      "The bodies of the unjust shall, by the power of Christ, be raised to dishonour; the bodies of the just, by his Spirit, unto honour, and be made conformable to his own glorious body.";
+}
+
+class ChapterThirtyTwoData {
+  //Paragraph 1
+  static var p1Sec1 = "God has appointed a day wherein he will judge the world in righteousness, by Jesus Christ;";
+  static var p1Sec2 = " to whom all power and judgment is given of the Father; in which day, not only the apostate angels shall be judged,";
+  static var p1Sec3 =
+      " but likewise all persons that have lived upon the earth shall appear before the tribunal of Christ, to give an account of their thoughts, words, and deeds, and to receive according to what they have done in the body, whether good or evil.";
+  //Paragraph 2
+  static var p2Sec4 =
+      "The end of God's appointing this day, is for the manifestation of the glory of his mercy, in the eternal salvation of the elect; and of his justice, in the eternal damnation of the reprobate, who are wicked and disobedient;";
+  static var p2Sec5 =
+      " for then shall the righteous go into everlasting life, and receive that fullness of joy and glory with everlasting rewards, in the presence of the Lord; but the wicked, who do not know God, and do not obey the gospel of Jesus Christ, shall be cast aside into everlasting torments,";
+  static var p2Sec6 = " and punished with everlasting destruction, from the presence of the Lord, and from the glory of his power.";
+  //Paragraph 3
+  static var p3Sec7 = "As Christ would have us to be certainly persuaded that there shall be a day of judgment, both to deter all men from sin,";
+  static var p3Sec8 = " and for the greater consolation of the godly in their adversity,";
+  static var p3Sec9 = " so will he have the day unknown to men, that they may shake off all carnal security, and be always watchful, because they know not at what hour the Lord will come,";
+  static var p3Sec10 = " and may ever be prepared to say, Come Lord Jesus; come quickly.";
+  static var p3Sec10end = " Amen.";
+}

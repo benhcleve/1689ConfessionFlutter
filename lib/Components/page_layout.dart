@@ -7,6 +7,18 @@ import 'package:confession_app/Screens/chapter_17.dart';
 import 'package:confession_app/Screens/chapter_18.dart';
 import 'package:confession_app/Screens/chapter_19.dart';
 import 'package:confession_app/Screens/chapter_20.dart';
+import 'package:confession_app/Screens/chapter_21.dart';
+import 'package:confession_app/Screens/chapter_22.dart';
+import 'package:confession_app/Screens/chapter_23.dart';
+import 'package:confession_app/Screens/chapter_24.dart';
+import 'package:confession_app/Screens/chapter_25.dart';
+import 'package:confession_app/Screens/chapter_26.dart';
+import 'package:confession_app/Screens/chapter_27.dart';
+import 'package:confession_app/Screens/chapter_28.dart';
+import 'package:confession_app/Screens/chapter_29.dart';
+import 'package:confession_app/Screens/chapter_30.dart';
+import 'package:confession_app/Screens/chapter_31.dart';
+import 'package:confession_app/Screens/chapter_32.dart';
 import 'package:confession_app/Screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Components/page_route.dart';
@@ -143,6 +155,18 @@ class Layout {
           drawerButton(context, "Chapter 18", Chapter18()),
           drawerButton(context, "Chapter 19", Chapter19()),
           drawerButton(context, "Chapter 20", Chapter20()),
+          drawerButton(context, "Chapter 21", Chapter21()),
+          drawerButton(context, "Chapter 22", Chapter22()),
+          drawerButton(context, "Chapter 23", Chapter23()),
+          drawerButton(context, "Chapter 24", Chapter24()),
+          drawerButton(context, "Chapter 25", Chapter25()),
+          drawerButton(context, "Chapter 26", Chapter26()),
+          drawerButton(context, "Chapter 27", Chapter27()),
+          drawerButton(context, "Chapter 28", Chapter28()),
+          drawerButton(context, "Chapter 29", Chapter29()),
+          drawerButton(context, "Chapter 30", Chapter30()),
+          drawerButton(context, "Chapter 31", Chapter31()),
+          drawerButton(context, "Chapter 32", Chapter32()),
           drawerButton(context, "Settings", SettingsScreen()),
         ],
       ),
