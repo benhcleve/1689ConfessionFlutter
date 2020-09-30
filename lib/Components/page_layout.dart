@@ -19,10 +19,11 @@ import 'package:confession_app/Screens/chapter_29.dart';
 import 'package:confession_app/Screens/chapter_30.dart';
 import 'package:confession_app/Screens/chapter_31.dart';
 import 'package:confession_app/Screens/chapter_32.dart';
+import 'package:confession_app/Screens/introduction.dart';
 import 'package:confession_app/Screens/settings_screen.dart';
+import 'package:confession_app/Screens/signatories.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Components/page_route.dart';
-import 'package:confession_app/Screens/home_screen.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:confession_app/Screens/chapter_1.dart';
 import 'package:confession_app/Screens/chapter_2.dart';
@@ -134,7 +135,7 @@ class Layout {
             height: 35.0,
             child: DrawerHeader(child: Text('Menu', style: TextStyle(fontSize: 24)), margin: EdgeInsets.all(0.0), padding: EdgeInsets.all(0.0)),
           ),
-          drawerButton(context, "Home", HomeScreen()),
+          drawerButton(context, "Introduction", Introduction()),
           drawerButton(context, "Chapter 1", Chapter1()),
           drawerButton(context, "Chapter 2", Chapter2()),
           drawerButton(context, "Chapter 3", Chapter3()),
@@ -167,6 +168,7 @@ class Layout {
           drawerButton(context, "Chapter 30", Chapter30()),
           drawerButton(context, "Chapter 31", Chapter31()),
           drawerButton(context, "Chapter 32", Chapter32()),
+          drawerButton(context, "Signatories", Signatories()),
           drawerButton(context, "Settings", SettingsScreen()),
         ],
       ),
