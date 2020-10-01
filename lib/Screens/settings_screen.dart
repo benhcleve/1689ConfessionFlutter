@@ -1,8 +1,10 @@
 import 'package:confession_app/Components/page_layout.dart';
 import 'package:confession_app/Components/theme_model.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:confession_app/Data/settings.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class SettingsScreen extends StatefulWidget {
   @override
@@ -16,10 +18,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
       appBar: Layout.defaultAppBar(),
       drawer: Layout.defaultDrawer(context),
       body: SafeArea(
-        child: Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+        child: Column(mainAxisAlignment: MainAxisAlignment.start, children: <Widget>[
           Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Icon(Icons.settings),
                   Text(
@@ -29,6 +32,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Bible Translation Version:  '),
                   DropdownButton<String>(
@@ -52,6 +56,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Dark Mode: "),
                   Switch(
@@ -67,6 +72,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Hide Paragraph Button: "),
                   Switch(
@@ -83,6 +89,62 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
             ],
           ),
+          Expanded(
+            child: Align(
+              alignment: FractionalOffset.bottomCenter,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Material(
+                      child: InkWell(
+                    onTap: () => launch('http://biblia.com/'),
+                    child: Container(
+                      child: ClipRRect(
+                        child: Image.network('https://api.biblia.com/v1/PoweredByBiblia_small.png'),
+                      ),
+                    ),
+                  )),
+                  RichText(
+                    textAlign: TextAlign.center,
+                    text: TextSpan(
+                      style: Layout.plainTextBody(),
+                      children: <TextSpan>[
+                        TextSpan(
+                          text: " This application uses the ",
+                          style: TextStyle(fontStyle: FontStyle.italic, fontSize: 12),
+                        ),
+                        TextSpan(
+                          text: 'Biblia',
+                          style: new TextStyle(color: Colors.orange, fontStyle: FontStyle.italic, fontSize: 12),
+                          recognizer: new TapGestureRecognizer()
+                            ..onTap = () {
+                              launch('http://biblia.com/');
+                            },
+                        ),
+                        TextSpan(
+                          text: " web services from ",
+                          style: TextStyle(fontStyle: FontStyle.italic, fontSize: 12),
+                        ),
+                        TextSpan(
+                          text: 'Logos Bible Software',
+                          style: new TextStyle(color: Colors.orange, fontStyle: FontStyle.italic, fontSize: 12),
+                          recognizer: new TapGestureRecognizer()
+                            ..onTap = () {
+                              launch('https://www.logos.com/');
+                            },
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 8.0,
+                  ),
+                ],
+              ),
+            ),
+          )
         ]),
       ),
     );

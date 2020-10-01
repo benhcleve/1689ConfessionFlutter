@@ -101,7 +101,7 @@ class ChapterThreeData {
   static var p3Sec9 = " others being left to act in their sin to their just condemnation, to the praise of His glorious justice.";
   //Paragraph 4
   static var p4Sec10 =
-      "These angels and men thus predestinated and foreordained, are particularly and unchangeably designed, and their number so certain and definite, that it cannot be either increased or diminished. ";
+      "These angels and men thus predestinated and foreordained, are particularly and unchangeably designed, and their number so certain and definite, that it cannot be either increased or diminished.";
   //Paragraph 5
   static var p5Sec11 =
       "Those of mankind that are predestinated to life, God, before the foundation of the world was laid, according to His eternal and immutable purpose, and the secret counsel and good pleasure of His will, hath chosen in Christ unto everlasting glory, out of His mere free grace and love,";

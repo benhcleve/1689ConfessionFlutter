@@ -1,3 +1,4 @@
+import 'package:confession_app/Components/page_layout.dart';
 import 'package:confession_app/Data/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -33,7 +34,7 @@ class BibleVerse extends StatefulWidget {
     final String bibleVerseURL = bibleVerse.replaceAll(new RegExp(r"\s+"), ""); //Remove spaces from verse to add to url
     print(bibleVerseURL);
     final response = await http.get(
-      'https://api.biblia.com/v1/bible/content/${Settings.selectedTranslation}.json?passage=$bibleVerseURL&key=$apiKEY',
+      'https://api.biblia.com/v1/bible/content/${Settings.selectedTranslation}.json?passage=$bibleVerseURL&style=orationBibleParagraphs&key=$apiKEY',
     );
     print('success!');
     return VerseData.fromJson(json.decode(response.body));
@@ -80,14 +81,16 @@ class _BibleVerseState extends State<BibleVerse> {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text(widget.bibleVerse),
       content: SingleChildScrollView(
         child: FutureBuilder(
           future: widget.fetchBible(),
           builder: (context, AsyncSnapshot snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
               print(snapshot);
-              return Text(snapshot.data.passage);
+              return Text(
+                snapshot.data.passage,
+                style: Layout.plainTextBody(),
+              );
             } else {
               return LinearProgressIndicator();
             }
@@ -96,12 +99,11 @@ class _BibleVerseState extends State<BibleVerse> {
       ), //Can add verseText once connected to Bible API
       actions: <Widget>[
 // usually buttons at the bottom of the dialog
-        FlatButton(
-          child: Text("Close"),
-          onPressed: () {
-            Navigator.of(context).pop();
-          },
-        ),
+        Material(
+            child: InkWell(
+          onTap: () => Navigator.of(context).pop(),
+          child: Container(child: Icon(Icons.close)),
+        )),
       ],
     );
   }
